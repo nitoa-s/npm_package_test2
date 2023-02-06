@@ -1,0 +1,30 @@
+{
+  "name": "npm_pacakge_test2",
+  "version": "0.0.1",
+  "description": "test npm package",
+  "main": "dist/npm-pacakge-test.js",
+  "cdn": "dist/npm-pacakge-test.min.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "vue": "2.7"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.4",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "clean-webpack-plugin": "^0.1.17",
+    "cross-env": "^5.1.1",
+    "css-loader": "^0.28.7",
+    "style-loader": "^0.18.2",
+    "vue-loader": "^12.1.0",
+    "vue-template-compiler": "^2.3.3",
+    "webpack": "^3.6.0",
+    "webpack-merge": "^4.1.0",
+    "webpack-node-externals": "^1.6.0"
+  }
+}
